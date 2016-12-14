@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Horse Quiz</string>
+    <string name="Header">Test your knowledge of Horses!!</string>
+    <string name="Question_1">1. A female and male horse are called a ____ and ____.  </string>
+    <string name="Jack">Jack</string>
+    <string name="Mare">Mare</string>
+    <string name="Jenny">Jenny</string>
+    <string name="Gelding">Gelding</string>
+    <string name="Question_2">2. Horses have 2 stomachs like a cow?</string>
+    <string name="yes">True</string>
+    <string name="no">False</string>
+    <string name="Question_3">3. Horses are very social animals.  They live in groups called _____.</string>
+    <string name="FITB">Fill in the Blank</string>
+    <string name="Question_4">4. A baby horse is referred to as a _____.</string>
+    <string name="mini">Minature Horse</string>
+    <string name="pony">Pony</string>
+    <string name="foal">Foal</string>
+    <string name="calf">Calf</string>
+    <string name="Question_5">5.  On the underside of the horse hoof is a triangular area called the ____.</string>
+    <string name="heal">Heal</string>
+    <string name="shock">Shocker</string>
+    <string name="sponge">Sponge</string>
+    <string name="frog">Frog</string>
+    <string name="Score">Submit Answers</string>
+
+</resources>

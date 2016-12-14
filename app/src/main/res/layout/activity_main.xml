@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.horsequiz.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="@string/Header"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            style="@style/questionTextStyle"
+            android:text="@string/Question_1" />
+
+        <CheckBox
+            android:id="@+id/jack_checkbox"
+            style="@style/Checkbox"
+            android:text="@string/Jack" />
+
+        <CheckBox
+            android:id="@+id/mare_checkbox"
+            style="@style/Checkbox"
+            android:text="@string/Mare" />
+
+        <CheckBox
+            android:id="@+id/jenny_checkbox"
+            style="@style/Checkbox"
+            android:text="@string/Jenny" />
+
+        <CheckBox
+            android:id="@+id/gelding_checkbox"
+            style="@style/Checkbox"
+            android:text="@string/Gelding" />
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            style="@style/questionTextStyle"
+            android:text="@string/Question_2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/true_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/false_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/no" />
+        </RadioGroup>
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            style="@style/questionTextStyle"
+            android:text="@string/Question_3" />
+
+        <EditText
+            android:id="@+id/user_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/FITB"
+            android:imeOptions="actionSend"
+            android:inputType="textCapWords" />
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            style="@style/questionTextStyle"
+            android:text="@string/Question_4" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/mini_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/mini" />
+
+            <RadioButton
+                android:id="@+id/pony_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/pony" />
+
+            <RadioButton
+                android:id="@+id/foal_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/foal" />
+
+            <RadioButton
+                android:id="@+id/calf_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/calf" />
+        </RadioGroup>
+
+        <View style="@style/viewStyle" />
+
+        <TextView
+            style="@style/questionTextStyle"
+            android:text="@string/Question_5" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/heal_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/heal" />
+
+            <RadioButton
+                android:id="@+id/shock_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/shock" />
+
+            <RadioButton
+                android:id="@+id/sponge_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/sponge" />
+
+            <RadioButton
+                android:id="@+id/frog_radio_button"
+                style="@style/Checkbox"
+                android:text="@string/frog" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/score_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:gravity="center"
+            android:onClick="calculateScore"
+            android:text="@string/Score"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</ScrollView>
